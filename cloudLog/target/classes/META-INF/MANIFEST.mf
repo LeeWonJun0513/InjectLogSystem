@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Premain-Class: assistlog.Agent
+Built-By: lee
+Can-Redefine-Classes: True
+Class-Path: lib/javassist-3.12.1.GA.jar lib/log4j-1.2.17.jar lib/log4j
+ dbc-remix-0.2.7.jar lib/junit-4.7.jar lib/slf4j-log4j12-1.7.25.jar li
+ b/slf4j-api-1.7.25.jar
+Build-Jdk: 1.8.0_152
+Created-By: Maven Integration for Eclipse
+Boot-Class-Path: lib/commons-compress-1.5.jar; lib/javassist.jar; lib/
+ mysql-connector-java-8.0.12.jar; lib/log4j-1.2.17.jar; lib/tools-1.7.
+ 0.13.jar; lib/log4jdbc-remix-0.2.7.jar ;lib/slf4j-api-1.7.25.jar; lib
+ /slf4j-log4j12-1.7.25.jar; 
+Main-Class: javaagenttask.foo
+

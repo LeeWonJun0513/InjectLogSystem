@@ -1,0 +1,33 @@
+-----> 2018-09-21 12:28:35.893 
+ 0    [ID : 1] [thread : main] [priority : DEBUG] [category : java.sql.Statement] [Class : com.mysql.cj.jdbc.StatementImpl] [method : executeQuery] [ndc : 1]- [log content : SELECT idx, id, password FROM log]
+
+-----> 2018-09-21 12:28:56.452 
+ 20559 [ID : 1] [thread : main] [priority : DEBUG] [category : java.sql.PreparedStatement] [Class : com.mysql.cj.jdbc.ClientPreparedStatement] [method : executeUpdate] [ndc : 1]- [log content : com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (3123,'1',1)]
+
+-----> 2018-09-21 12:29:06.521 
+ 30628 [ID : 1] [thread : main] [priority : DEBUG] [category : java.sql.Statement] [Class : com.mysql.cj.jdbc.StatementImpl] [method : executeQuery] [ndc : 1]- [log content : SELECT idx, id, password FROM log]
+
+-----> 2018-09-21 12:32:02.407 
+ 0    [ID : test] [thread : main] [priority : DEBUG] [category : java.sql.Statement] [Class : com.mysql.cj.jdbc.StatementImpl] [method : executeQuery] [ndc : test]- [log content : SELECT idx, id, password FROM log]
+
+-----> 2018-09-21 12:32:07.427 
+ 5020 [ID : test] [thread : main] [priority : DEBUG] [category : java.sql.PreparedStatement] [Class : com.mysql.cj.jdbc.ClientPreparedStatement] [method : executeUpdate] [ndc : test]- [log content : com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 3123]
+
+-----> 2018-09-21 12:32:13.203 
+ 10796 [ID : test] [thread : main] [priority : DEBUG] [category : java.sql.PreparedStatement] [Class : com.mysql.cj.jdbc.ClientPreparedStatement] [method : executeUpdate] [ndc : test]- [log content : com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 30]
+
+-----> 2018-09-21 12:54:57.206 
+ 0    [ID : 1] [thread : main] [priority : ERROR] [category : javasql.ClientSql] [Class : javasql.ClientSql] [method : insertToDb] [ndc : 1]- [log content : java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '30' for key 'PRIMARY']
+
+-----> 2018-09-21 13:31:23.767 
+ 0    [ID : 1] [thread : main] [priority : ERROR] [category : javasql.ClientSql] [Class : javasql.ClientSql] [method : insertToDb] [ndc : 1]- [log content : java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '30' for key 'PRIMARY']
+
+-----> 2018-09-21 18:10:22.371 
+ 0    [ID : 1] [thread : main] [priority : ERROR] [category : javasql.ClientSql] [Class : javasql.ClientSql] [method : insertToDb] [ndc : 1]- [log content : java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '24' for key 'PRIMARY']
+
+-----> 2018-09-21 18:45:55.702 
+ 0    [ID : 1] [thread : main] [priority : ERROR] [category : javasql.ClientSql] [Class : javasql.ClientSql] [method : insertToDb] [ndc : 1]- [log content : java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY']
+
+-----> 2018-09-21 18:45:55.709 
+ 7    [ID : 1] [thread : main] [priority : ERROR] [category : javasql.ClientSql] [Class : javasql.ClientSql] [method : insertToDb] [ndc : 1]- [log content : java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY']
+

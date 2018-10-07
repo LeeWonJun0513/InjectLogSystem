@@ -1,0 +1,72 @@
+20181003154824/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003154828/ guest/ crm.Login/ jButton1ActionPerformed/ ERROR/ java.lang.NullPointerException 
+ 20181003154833/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003154842/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'Keyboard' ; 
+ 20181003154848/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003155509/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003155513/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (140,'1',1) 
+ 20181003155517/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 140 
+ 20181003155521/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log WHERE 139 
+ 20181003155521/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003155522/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003155528/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 139 
+ 20181003155532/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE log SET id = '1', password = 1 WHERE idx = 138 
+ 20181003155534/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log WHERE 1 
+ 20181003155649/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003155654/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (139,'1',1) 
+ 20181003155658/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 139 
+ 20181003155703/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE log SET id = '1', password = 1 WHERE idx = 138 
+ 20181003155705/ / com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log WHERE 1 
+ 20181003155717/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (137,'1',1) 
+ 20181003155726/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (137,'1',1) 
+ 20181003155726/ / JDBC_program.ClientSql/ insertToDb/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '137' for key 'PRIMARY' 
+ 20181003155726/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (138,'1',1) 
+ 20181003155726/ / JDBC_program.ClientSql/ insertToDb/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '138' for key 'PRIMARY' 
+ 20181003155726/ / com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (139,'1',1) 
+ 20181003155901/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003155916/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003160006/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'Keyboard' ; 
+ 20181003160013/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003160026/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT Count FROM products WHERE ID='1' AND Name='Keyboard'; 
+ 20181003162943/ lee/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003162951/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (140,'1',1) 
+ 20181003162953/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 140 
+ 20181003162954/ lee/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log WHERE 1 
+ 20181003163002/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (138,'1',1) 
+ 20181003163002/ lee/ JDBC_program.ClientSql/ insertToDb/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '138' for key 'PRIMARY' 
+ 20181003163002/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (139,'1',1) 
+ 20181003163002/ lee/ JDBC_program.ClientSql/ insertToDb/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '139' for key 'PRIMARY' 
+ 20181003163002/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (140,'1',1) 
+ 20181003163040/ lee/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log 
+ 20181003163044/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (141,'1',1) 
+ 20181003163046/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: DELETE FROM log WHERE idx = 141 
+ 20181003163053/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE log SET id = '1', password = 1 WHERE idx = 140 
+ 20181003163055/ lee/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT idx, id, password FROM log WHERE 140 
+ 20181003163059/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (140,'1',1) 
+ 20181003163059/ lee/ JDBC_program.ClientSql/ insertToDb/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '140' for key 'PRIMARY' 
+ 20181003163059/ lee/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO log VALUES (141,'1',1) 
+ 20181003163145/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003163205/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003163220/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'mouse' ; 
+ 20181003163220/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO crm.products (`ID`, `Name`, `Count`) VALUES (1, 'mouse', 1); 
+ 20181003163220/ Ab/ crm.Add_product/ jButton1ActionPerformed/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY' 
+ 20181003163325/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003163347/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003163403/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'mouse' ; 
+ 20181003163403/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO crm.products (`ID`, `Name`, `Count`) VALUES (1, 'mouse', 1); 
+ 20181003163403/ Ab/ crm.Add_product/ jButton1ActionPerformed/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY' 
+ 20181003163518/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003163533/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003163555/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'Keyboard' ; 
+ 20181003163608/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 2 AND Name = 'Keyboard' ; 
+ 20181003163608/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO crm.products (`ID`, `Name`, `Count`) VALUES (2, 'Keyboard', 1); 
+ 20181003163608/ Ab/ crm.Add_product/ jButton1ActionPerformed/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY' 
+ 20181003163628/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT Count FROM products WHERE ID='1' AND Name='Keyboard'; 
+ 20181003163745/ guest/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM login WHERE username='Ab'; 
+ 20181003163756/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT * FROM products 
+ 20181003163819/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 1 AND Name = 'Keyboard' ; 
+ 20181003163823/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE products SET Count = Count + 1 WHERE id = 2 AND Name = 'Keyboard' ; 
+ 20181003163823/ Ab/ com.mysql.cj.jdbc.ClientPreparedStatement/ executeUpdate/ DEBUG/ com.mysql.cj.jdbc.ClientPreparedStatement: INSERT INTO crm.products (`ID`, `Name`, `Count`) VALUES (2, 'Keyboard', 1); 
+ 20181003163823/ Ab/ crm.Add_product/ jButton1ActionPerformed/ ERROR/ java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY' 
+ 20181003163839/ Ab/ com.mysql.cj.jdbc.StatementImpl/ executeQuery/ DEBUG/ SELECT Count FROM products WHERE ID='1' AND Name='Keyboard'; 
+ 

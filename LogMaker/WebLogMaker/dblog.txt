@@ -1,0 +1,4 @@
+
+INSERT INTO weblog (`time_stamp`, `id`, `class`, `method`, `priority`, `content`) VALUES("20181230005800", "bank", "bbs.BbsDAO", "update", "INFO", "com.mysql.cj.jdbc.ClientPreparedStatement: SELECT * FROM BBS WHERE bbsID < 6 AND bbsAvailable = 1 ORDER BY bbsID DESC LIMIT 10");
+INSERT INTO weblog (`time_stamp`, `id`, `class`, `method`, `priority`, `content`) VALUES("20181230005900", "bank", "bbs.BbsDAO", "update", "INFO", "com.mysql.cj.jdbc.ClientPreparedStatement: SELECT * FROM BBS WHERE bbsID < 6 AND bbsAvailable = 1 ORDER BY bbsID DESC LIMIT 10");
+INSERT INTO weblog (`time_stamp`, `id`, `class`, `method`, `priority`, `content`) VALUES("20181230000000", "lee", "user.UserDAO", "write", "ERROR", "java.lang.NullPointerException");
